@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
 import { CardList } from "./components/card-list/card-list.component";
-import {
-  SerachBox,
-  SearchBox
-} from "./components/search-box/search-box.component";
+import { SearchBox } from "./components/search-box/search-box.component";
+import { initializeIcons } from "@uifabric/icons";
+
+initializeIcons();
 
 class App extends Component {
   constructor() {
